@@ -1,0 +1,62 @@
+# ========== Credentials ==========
+# Jangan commit file konfigurasi asli yang berisi credential!
+config.properties
+.env
+*.env
+
+# ========== Maven ==========
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# ========== NetBeans ==========
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+*.nar
+*.ear
+*.iml
+
+# ========== IDE ==========
+.idea/
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# ========== Python Virtual Env (tidak relevan untuk project Java) ==========
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ========== OS ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# ========== Java ==========
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+hs_err_pid*
+replay_pid*

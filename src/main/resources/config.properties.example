@@ -1,0 +1,21 @@
+# ========== Database ==========
+db.host=localhost
+db.port=3306
+db.name=kuhstore_db
+db.user=root
+db.pass=
+
+# ========== Telegram Bot ==========
+bot.token=YOUR_BOT_TOKEN_HERE
+bot.username=KuhStoreBot
+
+# ========== H2H API ==========
+h2h.base_url=https://api.h2h.id/api/trx
+h2h.member_id=YOUR_H2H_USERNAME
+h2h.pin=YOUR_H2H_PIN
+h2h.password=YOUR_H2H_PASSWORD
+
+# ========== Midtrans Sandbox ==========
+midtrans.server_key=SB-Mid-server-XXXX
+midtrans.client_key=SB-Mid-client-XXXX
+midtrans.base_url=https://api.sandbox.midtrans.com/v2/
